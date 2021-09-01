@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.listbox {
+    width: 960px;
+    margin: 50px auto;
+}
+.listbox div {
+    font-size: 10px;
+    height: 50px;
+    padding: 20px;
+}
+.listbox div:nth-child(odd) {
+    background-color: gray;
+}
+
+.colorbox {
+    display: flex;
+    flex-wrap: wrap;
+    width: 960px;
+    margin: 0 auto;
+    margin-bottom: 50px;   
+}
+.colorbox div{
+    width: 30%;
+    height: 200px;
+    margin-bottom: 40px;
+    /* margin-right: 5%; */
+    background-color: yellow;
+}
+.colorbox div:nth-child(1) {
+    background-color: orange;
+}
+.colorbox div:nth-child(2) {
+    margin: 0 5%;
+}
+.colorbox div:nth-child(5) {
+    background-color: orange;
+    margin: 0 5%;
+}
+.colorbox div:nth-child(8) {
+    margin: 0 5%;
+}
+.colorbox div:nth-child(9) {
+    background-color: orange;
+}
